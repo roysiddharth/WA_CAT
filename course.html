@@ -11,6 +11,25 @@
 
         gtag('config', 'G-72XPZXG6BL');
     </script>
+	
+	window.dataLayer.push({ecommerce:null});
+	window.dataLayer.push({
+		event:"purchase",
+		ecommerce:{
+			currency:"INR",
+			value:500,
+			items:[{
+				item_id:"ABC_1",
+				item_name:"Apple",
+				item_category:"Fruits",
+				coupon:"WINTER SALE",
+				currency:"INR",
+				price:100,
+				quantity:1
+			}]
+		}
+	});
+	
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
